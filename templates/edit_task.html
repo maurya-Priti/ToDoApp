@@ -23,7 +23,7 @@
     <div class="container">
         <h3 class="pt-5 text-center">Django ToDo App - Edit Task</h3>
         <div class="row">
-             <!-- To Do Edit task Form -->
+             
              <form action="{% url 'edit_task' task.pk %}" method="POST" >
                 {%csrf_token%}
                 <div class="form-group" style="width: auto;margin: auto; padding: 10%;">
